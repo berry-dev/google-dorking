@@ -1,0 +1,152 @@
+_____________________________________________________________________________________________________________________________________________________________________
+DORK QUERIES GIVEN BELOW .
+_____________________________________________________________________________________________________________________________________________________________________
+
+INTITLE    - Useful for setting certain criteria with specific text 
+             for example: index of/ , login page etc
+
+ALLINTITLE – similar to the INTITLE , but only returns results for pages that meet all of the keyword criteria.
+
+SITE      -  Targets on one site only 
+
+FILETYPE  -  Specifying a file type it can be PDF,TXT,XML etc..
+
+INTEXT    –  This operator searches the entire content of a given page for keywords.
+
+ALLINTEXT –  Similar to the previous INTEXT, but requires a page to match all of the given keywords.
+
+EXT       –  very similar to filetype, but this looks for files based on their file extension.
+
+INURL     -  allows to search for pages based on URL
+
+ALLINURL  -  same as INURL but all the criteria should match
+_________________________________________________________________________________________________________________________________________________________________
+
+inurl:/login/index.jsp -site:hertz.*
+ intitle:"Index of" inurl:wp-json/oembed    
+ intitle:"Index of" phpmyadmin
+ intitle:"Index of" wp-admin
+ intitle:index.of.?.sql
+ inurl: /filemanager/dialog.php
+ s3 site:amazonaws.com filetype:log
+ inurl:cgi/login.pl
+ inurl:zoom.us/j and intext:scheduled for
+ site:*/auth intitle:login
+ nurl: admin/login.aspx    Pages Containing Login Portals
+ "Index of" inurl:webalizer
+ "Index of" inurl:phpmyadmin
+ "Index of" inurl:htdocs inurl:xampp
+ s3 site:amazonaws.com intext:dhcp filetype:txt inurl:apollo
+ inurl:/index.aspx/login
+ site:amazonaws.com inurl:login.php
+ intitle:"IIS Windows Server" -inurl:"IIS Windows Server"
+ intitle:"Apache2 Ubuntu Default Page: It works"    
+ inurl:/filedown.php?file=
+ inurl:Dashboard.jspa intext:"Atlassian Jira Project Management Software"
+ inurl:app/kibana intext:Loading Kibana
+ site:https://docs.google.com/spreadsheets edit
+ inurl:8443 AND -intitle:8443 AND -intext:8443 prohibited|restricted|unauthorized
+ intitle:"index of" unattend.xml
+ inurl:/admin/index.php
+ inurl:bc.googleusercontent.com intitle:index of
+ inurl:office365 AND intitle:"Sign In | Login | Portal"
+ intext:"@gmail.com" AND intext:"@yahoo.com" filetype:sql
+ intitle:OmniDB intext:"user. pwd. Sign in."
+ intitle:"qBittorrent Web UI" inurl:8080
+ participant.php?id=
+ passlist
+ passlist.txt
+ passwd
+ passwd / etc
+ media.php?page=
+ media/pr.php?id=
+ melbourne_details.php?id=
+ memberInfo.php?id=
+ Merak Mail Server Software" -.gov -.mil -.edu -site:merakmailserver.com
+ intitle:"inc. vpn 3000 concentrator"
+ intitle:"Index of..etc" passwd
+ intitle:"Index Of" -inurl:maillog maillog size
+ intitle:"Index of" .bash_history
+ intitle:"Index of" .mysql_history
+ intitle:"Index of" .sh_history
+ intitle:"Index of" ".htpasswd" "htgroup" -intitle:"dist" -apache -htpasswd.c
+ intitle:"index of" +myd size
+ intitle:"Index of" cfide
+ intitle:"Index Of" cookies.txt size
+ intitle:"index of" etc/shadow
+ intitle:"index of" htpasswd
+ intitle:"index of" intext:connect.inc
+ intitle:"index of" intext:globals.inc
+ intitle:"index of" master.passwd
+ intitle:"index of" members OR accounts
+ intitle:"index of" mysql.conf OR mysql_config
+ intitle:"index of" passwd
+ intitle:"Index of" passwords modified
+ intitle:"index of" people.lst
+ intitle:"index of" pwd.db
+ intitle:"Index of" pwd.db
+ message/comment_threads.php?postID=
+ Microsoft Money Data Files
+ Midmart Messageboard" "Administrator Login"
+ inurl:ViewerFrame?Mode=Refresh
+ inurl:viewphoto.php?id=
+ inurl:viewshowdetail.php?id=
+ inurl:vtund.conf intext:pass -cvs
+ inurl:vtund.conf intext:pass -cvs s
+ inurl:WCP_USER
+ inurl:web
+ inurl:webalizer filetype:png -.gov -.edu -.mil -opendarwin
+ inurl:webmail./index.pl "Interface"
+ inurl:website.php?id=
+ inurl:webutil.pl
+ inurl:webvpn.html "login" "Please enter your"
+ inurl:webvpn.html "login" "Please enter your" Login ("admin account info") filetype:log
+ inurl:wp-mail.php + "There doesn't seem to be any new mail."
+ inurl:XcCDONTS.asp
+ inurl:yapboz_detay.asp
+ inurl:yapboz_detay.asp + View Webcam User Accessing
+ inurl:zebra.conf intext:password -sample -test -tutorial -download
+ ipsec.conf
+ ipsec.secrets 
+ irbeautina/product_detail.php?product_id=
+ item_book.php?CAT=
+ item_details.php?catid=
+ item_list.php?cat_id=
+ item_list.php?maingroup
+ item_show.php?code_no=
+ filetype:cgi inurl:"fileman.cgi"
+filetype:cgi inurl:"Web_Store.cgi"
+filetype:cnf inurl:_vti_pvt access.cnf
+filetype:conf inurl:firewall -intitle:cvs
+filetype:conf inurl:psybnc.conf "USER.PASS="
+filetype:conf oekakibbs
+filetype:conf slapd.conf
+filetype:config config intext:appSettings "User ID"
+filetype:config web.config -CVS
+filetype:ctt Contact
+filetype:ctt ctt messenger
+filetype:dat "password.dat
+filetype:dat "password.dat"
+filetype:dat inurl:Sites.dat
+filetype:dat wand.dat
+filetype:DIFF DIFF
+filetype:DLL DLL
+filetype:DOC DOC
+filetype:eml eml +intext:"Subject" +intext:"From" +intext:"To"
+filetype:FCGI FCGI
+filetype:fp3 fp3
+filetype:fp5 fp5 -site:gov -site:mil -"cvs log"
+filetype:fp7 fp7
+filetype:HTM HTM
+filetype:HTML HTML
+filetype:inc dbconn
+filetype:inc intext:mysql_connect
+filetype:inc mysql_connect OR mysql_pconnect
+filetype:inf inurl:capolicy.inf
+filetype:inf sysprep
+filetype:ini inurl:"serv-u.ini"
+filetype:ini inurl:flashFXP.ini
+filetype:ini ServUDaemon
+filetype:ini wcx_ftp
+filetype:ini ws_ftp pwd
+filetype:JHTML JHTML
